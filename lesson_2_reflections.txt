@@ -13,3 +13,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 By choosing which files I place in the staging area to be committed, I can be more specific regarding 
 which changes I'd like to be included in the commit, giving me more control to make the committed changes
 logically seperate.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When we'd like to make an experimental or radical change to a piece of software. Branching allows us to do that without
+affecting the production line of commits.
