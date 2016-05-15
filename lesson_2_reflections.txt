@@ -22,3 +22,10 @@ affecting the production line of commits.
 How do the diagrams help you visualize the branch structure?
 
 By visualizing it. It shows the commits and the connections between them.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Content which did not exist in the original node before the branches were split (new branch) but was introduced
+in either branch afterwards, remains. Content which was there but was deleted, is not included. These differences
+are combined into one branch, so that we now have only one of each file, but the commit history is combined so that 
+it includes commits from both branches sorted by timestamp.
