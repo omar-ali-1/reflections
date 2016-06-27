@@ -29,3 +29,7 @@ Content which did not exist in the original node before the branches were split 
 in either branch afterwards, remains. Content which was there but was deleted, is not included. These differences
 are combined into one branch, so that we now have only one of each file, but the commit history is combined so that 
 it includes commits from both branches sorted by timestamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging takes care of the tedious parts which do not have direct or obvious conflicts, i.e. the same parts of a file have not been changed in two branches. Then, where there do exist conlicts, auto merge lets you know so you can figure out how to resolve them.
