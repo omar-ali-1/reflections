@@ -11,7 +11,7 @@ I want changes to transfer when they constitute a logical unit of work. eg. a wo
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Clones can refer to making a copy of a repo on my PC itself, or between my PC and GitHub. Forking is a term used to refer to cloning done only on GitHub of another party's repo to my own GitHub account. Branching refers to the creation of a new commit with a label without discarding the previous one, so that each can progress in separate ways (merged later if desired).
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
